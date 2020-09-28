@@ -22,6 +22,7 @@
     }
   },
   "dependencies": {
+    "@react-navigation/native": "^5.7.4",
     "react": "16.13.1",
     "react-native": "0.63.2",
     "react-native-dev-menu": "^4.0.2"
