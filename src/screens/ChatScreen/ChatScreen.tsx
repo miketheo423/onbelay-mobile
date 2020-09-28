@@ -2,12 +2,12 @@ import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Text } from 'react-native';
 
-const ProfileScreen = () => {
+const ChatScreen = () => {
   return (
     <SafeAreaView>
-      <Text>Profile Screen</Text>
+      <Text>Messages Screen</Text>
     </SafeAreaView>
   );
 };
 
-export default ProfileScreen;
+export default ChatScreen;

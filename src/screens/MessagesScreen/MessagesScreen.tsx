@@ -1,11 +1,18 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { Text, Button } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 const MessagesScreen = () => {
+  const navigation = useNavigation();
   return (
-    <View>
-      <Text>Messages Screen</Text>
-    </View>
+    <SafeAreaView>
+      <Text>Chat Screen</Text>
+      <Button
+        title="Go to Chat Screen"
+        onPress={() => navigation.navigate('Chat')}
+      />
+    </SafeAreaView>
   );
 };
 
