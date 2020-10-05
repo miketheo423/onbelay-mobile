@@ -7,7 +7,7 @@ const MessagesScreen = () => {
   const navigation = useNavigation();
   return (
     <SafeAreaView>
-      <Text>Chat Screen</Text>
+      <Text>Messages Screen</Text>
       <Button
         title="Go to Chat Screen"
         onPress={() => navigation.navigate('Chat')}
